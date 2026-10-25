@@ -2,28 +2,28 @@
   "version": "0.2.20",
   "tag_name": "v0.2.20",
   "title": "DeepCloud Desktop v0.2.20 (Windows x64)",
-  "releaseNotes": "【AI 核心工作台与 Alt+Space 灵动岛、微内核插件解耦架构演进与海阔视界全链路自愈】上线全新 AI 视觉小部件、模型网关发现机制与理解图谱工作空间；全面落地微内核解耦架构规范 (SPEC-ARCH-002)，Hub 智能体与爬虫引擎物理独立插件化；海阔视界启动白屏、宝塔盾与 WAF 验证码拦截 900ms 极速自愈过盾；播放器升级 PotPlayer 风格虚拟聚合长片时间轴、首帧 GPU 渲染防黑屏与脱机自治；全量 157 个模块通过 V8 原生字节码编译加固（Bytenode）。",
-  "publishedAt": "2026-10-25T13:45:00Z",
+  "releaseNotes": "【旗舰影音PotPlayer风格虚拟长片时间轴、选集流媒体合成与全架构高内聚模块化演进】落地PotPlayer风格多选集/多片段虚拟无缝长片时间轴，支持首帧GPU渲染防黑屏与全集离线下载画质自选；影视选集浮层与提示卡片新增流媒体合成进度与状态提示，模块化播放控制菜单与海阔URL标准化链路；消除海阔小程序过渡抖动与按钮拉伸缺陷，挂载全局剪贴板口令监听；全面完成WysiwygBottomBarCanvas、CosmicUniverseView、网络挂载驱动与浏览器组件模块化重构；全量151个核心模块通过V8原生字节码编译加固（Bytenode）。",
+  "publishedAt": "2026-10-25T13:55:00Z",
   "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.20",
   "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/deepcloud-update-v0.2.20.asar",
   "assets": [
     {
       "name": "deepcloud-update-v0.2.20.asar",
       "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/deepcloud-update-v0.2.20.asar",
-      "size": 102875992,
-      "sha256": "ce691abbf20e347e62e8f172a7d0b4030bfc041d4c1ed836a25297ce357457cb"
+      "size": 106317968,
+      "sha256": "d0239f6ca73eb9d5aeda2fd27bf4a49255d94b22d05303f048d7863d3a2ecb8d"
     },
     {
       "name": "deepcloud-ui Setup 0.2.20.exe",
       "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/deepcloud-ui.Setup.0.2.20.exe",
-      "size": 191432894,
-      "sha256": "7d7b4c33192a417080f7a985331d576ad7ab619a945b6e059d02f27d52693ff1"
+      "size": 192118626,
+      "sha256": "9efc3eee3c47f665b56ee75127a65bc13d53c77caf061b51c661d1c75df37644"
     },
     {
       "name": "app.asar",
       "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/app.asar",
-      "size": 102875992,
-      "sha256": "ce691abbf20e347e62e8f172a7d0b4030bfc041d4c1ed836a25297ce357457cb"
+      "size": 106317968,
+      "sha256": "d0239f6ca73eb9d5aeda2fd27bf4a49255d94b22d05303f048d7863d3a2ecb8d"
     },
     {
       "name": "hub-windows-amd64.zip",

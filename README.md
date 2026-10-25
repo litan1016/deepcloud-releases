@@ -37,7 +37,7 @@
 | 发行资产 (Asset) | 适用场景 | 说明 | 直接下载 |
 | :--- | :--- | :--- | :--- |
 | **`deepcloud-ui Setup 0.2.20.exe`** | **全新全量安装** | 首次使用请下载此安装包，具备自定义安装目录、开始菜单与桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/deepcloud-ui.Setup.0.2.20.exe) |
-| **`deepcloud-update-v0.2.20.asar`** | **增量无感热更** | 针对已有安装用户的轻量级差分补丁包（V8 原生字节码加固，约 98MB，秒级下载热更） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/deepcloud-update-v0.2.20.asar) |
+| **`deepcloud-update-v0.2.20.asar`** | **增量无感热更** | 针对已有安装用户的轻量级差分补丁包（V8 原生字节码加固，约 101MB，秒级下载热更） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/deepcloud-update-v0.2.20.asar) |
 | **`app.asar`** | **核心包手动覆盖** | 完整核心二进制归档，可直接复制覆盖安装目录下的 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/app.asar) |
 | **`hub-windows-amd64.zip`** | **AI 视觉与服务中台** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/hub-windows-amd64.zip) |
 | **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行文件 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/hub.exe) |
@@ -53,9 +53,9 @@ Get-FileHash -Path ".\deepcloud-ui Setup 0.2.20.exe" -Algorithm SHA256
 ```
 
 ### 官方标准哈希清单 (v0.2.20)：
-- **`deepcloud-ui Setup 0.2.20.exe`**：`7d7b4c33192a417080f7a985331d576ad7ab619a945b6e059d02f27d52693ff1`
-- **`deepcloud-update-v0.2.20.asar`**：`ce691abbf20e347e62e8f172a7d0b4030bfc041d4c1ed836a25297ce357457cb`
-- **`app.asar`**：`ce691abbf20e347e62e8f172a7d0b4030bfc041d4c1ed836a25297ce357457cb`
+- **`deepcloud-ui Setup 0.2.20.exe`**：`9efc3eee3c47f665b56ee75127a65bc13d53c77caf061b51c661d1c75df37644`
+- **`deepcloud-update-v0.2.20.asar`**：`d0239f6ca73eb9d5aeda2fd27bf4a49255d94b22d05303f048d7863d3a2ecb8d`
+- **`app.asar`**：`d0239f6ca73eb9d5aeda2fd27bf4a49255d94b22d05303f048d7863d3a2ecb8d`
 - **`hub-windows-amd64.zip`**：`2e5ed4d0f27abb9c46d1296a157c71c20957b6e76dc237921923e89e055dd9c1`
 - **`hub.exe`**：`4cc5bcae06d333da8f0b0f4f617d62157e001aa4e8f6c48c1915da1091958f68`
 
