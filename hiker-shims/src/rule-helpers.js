@@ -352,7 +352,11 @@ function createRuleHelpers(sandbox, hostAdapter) {
 
   function executeWebRule(url, jsCode, options) {
     if (typeof sandbox.fetchCodeByWebView === 'function') {
-      return sandbox.fetchCodeByWebView(url, options);
+      const mergedOptions = Object.assign({}, options, {
+        checkJs: typeof jsCode === 'string' ? jsCode : (jsCode ? String(jsCode) : ''),
+        isWebRule: true
+      });
+      return sandbox.fetchCodeByWebView(url, mergedOptions);
     }
     return '';
   }

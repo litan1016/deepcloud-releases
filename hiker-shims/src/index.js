@@ -623,5 +623,6 @@ module.exports = {
   dateFormat,
   createRuleHelpers,
   attachCryptoAndCodecBuiltins,
+  ...require('./ecosystem-shims'),
 };
 

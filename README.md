@@ -29,18 +29,18 @@
 
 ---
 
-## 📥 快速下载与资产清单 (v0.2.12)
+## 📥 快速下载与资产清单 (v0.2.20)
 
 > [!TIP]
 > 推荐直接访问 **[GitHub Releases 官方发布页](https://github.com/Mowen559/deepcloud-releases/releases/latest)** 获取最新版本。
 
 | 发行资产 (Asset) | 适用场景 | 说明 | 直接下载 |
 | :--- | :--- | :--- | :--- |
-| **`deepcloud-ui Setup 0.2.12.exe`** | **全新全量安装** | 首次使用请下载此安装包，具备自定义安装目录、开始菜单与桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/deepcloud-ui.Setup.0.2.12.exe) |
-| **`deepcloud-update-v0.2.12.asar`** | **增量无感热更** | 针对已有安装用户的轻量级差分补丁包（V8 原生字节码加固，仅约 108MB，秒级下载热更） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/deepcloud-update-v0.2.12.asar) |
-| **`app.asar`** | **核心包手动覆盖** | 完整核心二进制归档，可直接复制覆盖安装目录下的 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/app.asar) |
-| **`hub-windows-amd64.zip`** | **AI 视觉与服务中台** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/hub-windows-amd64.zip) |
-| **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行文件 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/hub.exe) |
+| **`deepcloud-ui Setup 0.2.20.exe`** | **全新全量安装** | 首次使用请下载此安装包，具备自定义安装目录、开始菜单与桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/deepcloud-ui.Setup.0.2.20.exe) |
+| **`deepcloud-update-v0.2.20.asar`** | **增量无感热更** | 针对已有安装用户的轻量级差分补丁包（V8 原生字节码加固，约 98MB，秒级下载热更） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/deepcloud-update-v0.2.20.asar) |
+| **`app.asar`** | **核心包手动覆盖** | 完整核心二进制归档，可直接复制覆盖安装目录下的 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/app.asar) |
+| **`hub-windows-amd64.zip`** | **AI 视觉与服务中台** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/hub-windows-amd64.zip) |
+| **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行文件 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.20/hub.exe) |
 
 ---
 
@@ -49,13 +49,13 @@
 为防范网络传输篡改或下载损坏，在 Windows PowerShell 终端中执行以下命令可验证文件指纹：
 
 ```powershell
-Get-FileHash -Path ".\deepcloud-ui Setup 0.2.12.exe" -Algorithm SHA256
+Get-FileHash -Path ".\deepcloud-ui Setup 0.2.20.exe" -Algorithm SHA256
 ```
 
-### 官方标准哈希清单 (v0.2.12)：
-- **`deepcloud-ui Setup 0.2.12.exe`**：`5cdc1904c550fe112da5ad30094451acb3efb275a4a3d1f14fa4dcd9953862cb`
-- **`deepcloud-update-v0.2.12.asar`**：`625f7d413dba706db4dc657e60d88ce684a5d497b76b6f5118770dd62b04a500`
-- **`app.asar`**：`625f7d413dba706db4dc657e60d88ce684a5d497b76b6f5118770dd62b04a500`
+### 官方标准哈希清单 (v0.2.20)：
+- **`deepcloud-ui Setup 0.2.20.exe`**：`7d7b4c33192a417080f7a985331d576ad7ab619a945b6e059d02f27d52693ff1`
+- **`deepcloud-update-v0.2.20.asar`**：`ce691abbf20e347e62e8f172a7d0b4030bfc041d4c1ed836a25297ce357457cb`
+- **`app.asar`**：`ce691abbf20e347e62e8f172a7d0b4030bfc041d4c1ed836a25297ce357457cb`
 - **`hub-windows-amd64.zip`**：`2e5ed4d0f27abb9c46d1296a157c71c20957b6e76dc237921923e89e055dd9c1`
 - **`hub.exe`**：`4cc5bcae06d333da8f0b0f4f617d62157e001aa4e8f6c48c1915da1091958f68`
 
@@ -69,7 +69,7 @@ Get-FileHash -Path ".\deepcloud-ui Setup 0.2.12.exe" -Algorithm SHA256
 - **存储空间**：至少预留 500MB 可用磁盘空间
 
 ### 1.2 首次安装与启动
-1. 双击运行 `deepcloud-ui Setup 0.2.11.exe`；
+1. 双击运行 `deepcloud-ui Setup 0.2.20.exe`；
 2. 选择软件安装路径（默认安装至用户目录，亦可自由选择非系统盘）；
 3. 安装完成后启动 DeepCloud，微内核网关将自动在安全环回接口（`127.0.0.1`）初始化启动；
 4. 客户端将静默完成 SQLite 本地数据库建表与出厂沙箱运行环境初始化。
@@ -253,7 +253,7 @@ DeepCloud 通过通用 Sidecar 守护进程管理器，原生内置了 AList 多
 **答**：
 - 进入「设置」 $\to$ 「通用设置」，确认更新仓库地址为 `Mowen559/deepcloud-releases`；
 - 点击「检查更新」按钮旁边的「刷新」，系统将自动绕过本地缓存直接探测 GitHub 最新 Release；
-- 您也可以直接从本页面下载最新的 `deepcloud-update-v0.2.11.asar`，在设置页点击「从本地文件加载补丁」一键更新。
+- 您也可以直接从本页面下载最新的 `deepcloud-update-v0.2.20.asar`，在设置页点击「从本地文件加载补丁」一键更新。
 
 ### Q2：播放某些视频提示“播放失败”或一直转圈？
 **答**：
@@ -263,7 +263,7 @@ DeepCloud 通过通用 Sidecar 守护进程管理器，原生内置了 AList 多
 
 ### Q3：规则内搜索输入框点击无反应？
 **答**：
-- 请确认已安装 **v0.2.11** 或更新版本；
+- 请确认已安装 **v0.2.20** 或更新版本；
 - 本版本已彻底重构输入框的事件转发机制与 Worker 沙箱语法转义，输入关键词后敲击回车即可直接搜索。
 
 ---
